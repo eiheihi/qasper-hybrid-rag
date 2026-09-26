@@ -1,0 +1,10 @@
+.env
+__pycache__/
+data/uploads/
+data/chroma/
+data/qasper/
+.conda/
+.idea/
+*.iml
+data/models/
+data/hf_cache/

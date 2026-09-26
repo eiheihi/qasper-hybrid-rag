@@ -1,0 +1,32 @@
+{
+  "parameters": {
+    "dense_candidates": 30,
+    "bm25_candidates": 30,
+    "rerank_candidates": 20,
+    "final_k": 10,
+    "rrf_k": 60,
+    "dense_weight": 0.25,
+    "reranker": "BAAI/bge-reranker-v2-m3",
+    "pair_batch_size": 2
+  },
+  "hybrid_rrf_dense_0.25": {
+    "hit_at_1": 0.1383399209486166,
+    "hit_at_3": 0.22134387351778656,
+    "hit_at_5": 0.24110671936758893,
+    "recall_at_5": 0.15900720179896383,
+    "recall_at_10": 0.24484382893993878,
+    "mrr_at_10": 0.19498400150574063,
+    "ndcg_at_10": 0.17318031976638132,
+    "p95_latency_seconds": 0.022025660006329415
+  },
+  "hybrid_rrf_rerank_bge_v2_m3": {
+    "hit_at_1": 0.16205533596837945,
+    "hit_at_3": 0.30039525691699603,
+    "hit_at_5": 0.34782608695652173,
+    "recall_at_5": 0.24043012670014957,
+    "recall_at_10": 0.27027202393335115,
+    "mrr_at_10": 0.23715415019762845,
+    "ndcg_at_10": 0.21181859674645492,
+    "p95_end_to_end_latency_seconds": 0.5018403599737212
+  }
+}

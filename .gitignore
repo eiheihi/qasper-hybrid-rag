@@ -3,6 +3,7 @@ __pycache__/
 data/uploads/
 data/chroma/
 data/qasper/
+data/qasper_test/
 .conda/
 .idea/
 *.iml
